@@ -73,6 +73,9 @@ stand.info()
 #Task3
 print("\nTask3\n")
 
+task3r = "Task3.txt"
+task3w = "Task3_res.txt"
+
 with open("Task3.txt", "w") as prosto:
     prosto.write("""Як умру, то поховайте
 Мене на могилі,
